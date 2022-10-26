@@ -27,5 +27,5 @@ console.log(length);
 
 ///////Class List Exercise: Add "darkMode//////
 
-let heading = document.querySelector(".darkMode");
+let heading = document.querySelector(.darkMode);
 heading.classList.add("black");
