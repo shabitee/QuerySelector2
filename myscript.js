@@ -11,17 +11,21 @@
 */
 
 // Write your JavaScript below
-let tag =document.querySelector("p");
-console.log(tag);
+let tag =document.querySelectorAll("p");
+let paragraph = tag[1];
+console.log(paragraph);
 
 let list = document.querySelectorAll(".list");
 console.log(list);
 
-let content = document.querySelectorAll("li:nth-child[3]");
-console.log(content);
+let content = document.querySelectorAll(".list");
+let child = content[2];
+console.log(child);
 
 let length = list.length;
 console.log(length);
+
+///////Class List Exercise: Add "darkMode//////
 
 let heading = document.querySelector("darkMode");
 heading.classList.add("black");
